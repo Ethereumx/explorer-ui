@@ -27,7 +27,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    loadChildren: () => import('./pages/network/network.module').then(m => m.NetworkModule)
+    loadChildren: '/Azakan' //() => import('./pages/network/network.module').then(m => m.NetworkModule)
 
 //    loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule),
   },
